@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.trending {
+    font-family: 'Indie Flower', cursive;
+    
+    h3 { 
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .card {
+        margin: 1rem;
+        
+        .trend {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+
+            .picture {
+                background-color: #fa3a6d;
+                border-radius: 50%;
+                width: 45px;
+                height: 45px;
+            }
+
+            .account {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                font-size: 0.9rem;
+            }
+
+            .username {
+                font-weight: 500;
+                margin-bottom: 0.15rem;
+            }
+
+            .trend-1 {
+
+                .picture {
+                    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/2e80bb98931623.5ee79b6a8f342.jpg);
+                }
+            } 
+            
+            .trend-3 .picture {
+                background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/8394f798931623.5ee79b6a909ea.jpg);
+            }
+            
+            .trend-4 .picture {
+                background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/baa20698931623.5ee79b6a8ec2b.jpg);
+            }
+        }
+    }
+}

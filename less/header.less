@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.header {
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    background: #d4c4c4;
+    box-shadow: 0px 11px 8px 0px #696060ba;
+    padding: 1.2rem 1rem;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+
+    button, input {
+        color: inherit;
+        font: inherit;
+    }
+
+    button {
+        border: none;
+        appearance: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .top {
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        margin-bottom: 2.5rem;
+
+        img { 
+            border-radius: 50%;
+            margin: 0.5rem;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+            width: 100%;
+
+            label {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                .search-icon { font-size: 1.8rem; }
+            }
+            #search {
+                display: inline-block;
+                border: 0;
+                background: #a19d9d;
+                padding: 0.75em 2em;
+                outline-color: #084c61;
+                margin-left: 1.25rem;
+                border-radius: 99em;
+                width: min(80%, 700px);
+            }
+        }
+
+        .account {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: 800;
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .picture {
+                img {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            
+            .picture {
+                img {
+                    width: 6.5rem;
+                    height: 6.5rem;
+                    border-radius: 50%;
+                }
+            }
+
+            .profile-name {
+                .greetings {
+                    font-weight: 800;
+                    margin-bottom: 0.4rem;
+                }
+
+                .name {
+                    font-size: 1.6rem;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 2rem;
+
+            .btn {
+                background-color: #084c61;
+                color: #fafaf9;
+                font-weight: 500;
+                padding: 0.75em 2.3em;
+                border-radius: 99em;
+            }
+        }
+    }
+}
