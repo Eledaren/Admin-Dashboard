@@ -293,6 +293,7 @@
 .trending .card .trend {
   display: flex;
   align-items: center;
+  margin: 0.5rem;
   gap: 0.5rem;
   cursor: pointer;
 }
@@ -309,16 +310,16 @@
   justify-content: center;
   font-size: 0.9rem;
 }
-.trending .card .trend .username {
+.trending .card .trend .account .username {
   font-weight: 500;
   margin-bottom: 0.15rem;
 }
-.trending .card .trend .trend-1 .picture {
+.trending .card .trend-1 .picture {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/2e80bb98931623.5ee79b6a8f342.jpg);
 }
-.trending .card .trend .trend-3 .picture {
+.trending .card .trend-3 .picture {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/8394f798931623.5ee79b6a909ea.jpg);
 }
-.trending .card .trend .trend-4 .picture {
+.trending .card .trend-4 .picture {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/baa20698931623.5ee79b6a8ec2b.jpg);
 }
